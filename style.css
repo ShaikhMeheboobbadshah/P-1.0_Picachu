@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    padding: 10px 20px;
+   background-color: lightgray;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 1rem;
+    font-family: sans-serif;
+
+    border-radius:10px;    
+    overflow: hidden;
+    position: relative;
+}
+
+.left{
+
+    font-size: 1rem;
+    background: #FBC60C;
+    width: 60%;
+    line-height: 1.25;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo{
+    width: 8vw;
+    margin-bottom: 2.25em;
+}
+
+
+.upper-tittle{
+    font-size: .925rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .25em;
+
+}
+
+.tittle{
+    font-size: 8vw;
+    text-transform: capitalize;
+    
+}
+
+.para{
+
+    font-size: 1.225vw;
+    font-weight: 100;
+    line-height: 1.625;
+    color: #634000;
+
+}
+
+
+.right{
+    width: 40%;
+    background-color: #FAE7B4;
+}
+
+
+.poki{
+    position: absolute;
+    width: 40vw;
+    right: 12%;
+    top: 100px;
+
+}
+
+.left ,
+.right{
+    height: calc( 100vh - 20px);
+      padding:.825em 2em 12.825em ;
+    
+}
+
+.mark{
+    width: 12vw;
+    height: 12vw;
+
+    position: absolute;
+    border: 12px solid #E1B10B;
+    border-radius:100px;
+
+    
+}
+
+
+
+.watermark{
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: absolute;
+bottom: 4%;
+left: 2%;
+
+}
+
+.watermark .mark:last-child{
+width: 5vw;
+height: 5vw;
+background-color:lightgray;
+/* background-color:#FBC60C; */
+
+}
+
+.line{
+    width: 12vw;
+    height: 1vw;
+    background: #E1B10B;
+    
+    
+}
+
